@@ -10,3 +10,6 @@
     - Added favicon
     - Added title
     - Changed header size and added margin
+
+# Oct. 5th '23
+    - Changed the list width and margin items to be active for medium size screens and higher to fix mobile layouts

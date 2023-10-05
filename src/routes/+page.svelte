@@ -11,7 +11,7 @@
 	<div class="mt-6 border-t border-pink-500">
 	</div>
 	<!-- list -->
-	<ul role="list" class="divide-y divide-pink-500 w-2/3 mx-40">
+	<ul role="list" class="divide-y divide-pink-500 md:w-3/4 md:mx-32">
 		{#each endPointArray as e}
 		<li class="flex flex-col justify-between gap-x-6 py-5">
 			<div class="flex min-w-0 gap-x-4">

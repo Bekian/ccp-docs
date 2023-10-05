@@ -6,3 +6,7 @@
 
     - Added dynamic rendering to the endpoint items
     - Changed color scheme
+    
+    - Added favicon
+    - Added title
+    - Changed header size and added margin

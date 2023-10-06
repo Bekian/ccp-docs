@@ -1,29 +1,22 @@
 <script>
 	import { endPointArray } from '$lib/stores'
-	
+	import '$lib/sum.js'
+	export let data
 </script>
-<div class="m-10">
-	<h2 class="text-4xl font-bold leading-7 text-violet-700 sm:truncate sm:text-3xl sm:tracking-tight">CCP API Documentation</h2>
-	<div class="px-4 sm:px-0">
-		<h3 class="text-base font-semibold leading-7 text-purple-700">Documentation for CCP API Endpoints</h3>
-		<!-- <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">Personal details and application.</p> -->
-	</div>
-	<div class="mt-6 border-t border-pink-500">
-	</div>
+
 	<!-- list -->
-	<ul role="list" class="divide-y divide-pink-500 md:w-3/4 md:mx-32">
-		{#each endPointArray as e}
-		<li class="flex flex-col justify-between gap-x-6 py-5">
-			<div class="flex min-w-0 gap-x-4">
-			  <div class="min-w-0 flex-auto">
-				<p class="text-sm font-semibold leading-6 text-fuchsia-600">{e.endpoint}</p>
-				<p class="mt-1 flex flex-wrap text-xs leading-5 text-gray-300">{e.description}</p>
-			  </div>
+<ul role="list" class="divide-y divide-pink-500 md:w-3/4 md:mx-32">
+{#each data.summaries as {endpoint, description}}
+	<li class="flex flex-col justify-between gap-x-6 py-5">
+		<div class="flex min-w-0 gap-x-4">
+			<div class="min-w-0 flex-auto">
+			<a class="text-md font-semibold leading-6 text-fuchsia-600 no-underline" href={endpoint}>{endpoint}</a>
+			<p class="mt-1 flex flex-wrap text-xs leading-5 text-gray-300">{description}</p>
 			</div>
-		  </li>
-		{/each}
-	  </ul>
-</div>
+		</div>
+	</li>
+{/each}
+</ul>
 
 <style lang="postcss">
 :global(html) {

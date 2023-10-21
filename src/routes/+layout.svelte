@@ -4,7 +4,7 @@
 
 <title>CCP API Docs</title>
 
-<div class="m-10 bg-inherit">
+<div class="m-10">
     <div class="flex flex-row">
         <div class="flex flex-col">
             <h2 class="text-4xl font-bold leading-7 text-violet-700 sm:truncate sm:text-3xl sm:tracking-tight">CCP API Documentation</h2>
@@ -14,7 +14,6 @@
             </div>
         </div>
     </div>
-	<div class="mt-6 border-t border-pink-500">
-	</div>
+	<div class="mt-6 border-t border-pink-500"></div>
     <slot />
 </div>

@@ -1,4 +1,16 @@
+/**
+ * An array of objects representing different API endpoints and their descriptions.
+ *
+ * @typedef {Object} ApiEndpoint
+ * @property {string} endpoint - The API endpoint URL.
+ * @property {string} description - A brief description of the API endpoint's purpose.
+ */
 
+/**
+ * Array of API endpoints and descriptions.
+ *
+ * @type {ApiEndpoint[]}
+ */
 export const endPointArray = [
     {
         endpoint: '/trivia',

@@ -16,6 +16,9 @@
     - Added dynamic routing to endpoint subpages, though they're broken atm and idk why
 
 # Oct. 21st '23
-    - Revamped the dynamic routing system
+    - Revamped the dynamic routing system to manually map specific routes to specific content
     - Fixed black background not being consistent across all pages
     - Removed redudant background assignments
+
+    - Added JSDoc for endpointArray array of objects
+    - Revamped dynamic routing system again to dynamically map routes to content

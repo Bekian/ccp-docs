@@ -22,3 +22,9 @@
 
     - Added JSDoc for endpointArray array of objects
     - Revamped dynamic routing system again to dynamically map routes to content
+
+# Oct. 22nd '23
+    - Fixed favicon so it works on all pages.
+    - Fixed title so it works on all pages.
+    - Added some minor styling to individual endpoint pages so its not painful to look at.
+    - Added endpoint name styling so the name of the endpoint in the description is a different color than the rest of the text. the method for this may need to be reworked cause its tedious to do manually.

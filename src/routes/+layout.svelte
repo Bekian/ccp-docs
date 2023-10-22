@@ -1,8 +1,11 @@
 <script>
     import "../app.css";
+    //import page from "$app/stores";
+    
 </script>
-
-<title>CCP API Docs</title>
+<svelte:head>
+    <title>CCP API Docs</title>
+</svelte:head>
 
 <div class="m-10">
     <div class="flex flex-row">

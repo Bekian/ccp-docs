@@ -3,5 +3,5 @@
 	export let data;
 </script>
 
-<h1 class="text-white">{data.title}</h1>
-<div class="text-white">{@html data.content}</div>
+<h1 class="text-white text-4xl my-5">{data.title}</h1>
+<div class="text-white text-md">{@html data.content}</div>

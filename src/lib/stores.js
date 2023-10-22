@@ -14,12 +14,12 @@
 export const endPointArray = [
     {
         endpoint: '/trivia',
-        description: 'The "/trivia" endpoint in a JSON response API delivers engaging trivia questions and answers. It serves as a valuable resource for developers seeking to incorporate trivia quizzes into their applications, boosting user interaction and knowledge.',
+        description: 'The  <span class="text-fuchsia-600">"/trivia"</span> endpoint in a JSON response API delivers engaging trivia questions and answers. It serves as a valuable resource for developers seeking to incorporate trivia quizzes into their applications, boosting user interaction and knowledge.',
 
     },
     {
         endpoint: '/fact',
-        description: 'The "/fact" endpoint in a JSON response API delivers intriguing facts and information. Developers can utilize this endpoint to enrich their applications with interesting facts, enhancing user engagement and knowledge-sharing.',
+        description: 'The <span class="text-fuchsia-600">"/fact"</span> endpoint in a JSON response API delivers intriguing facts and information. Developers can utilize this endpoint to enrich their applications with interesting facts, enhancing user engagement and knowledge-sharing.',
 
     },
     {

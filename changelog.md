@@ -28,3 +28,7 @@
     - Fixed title so it works on all pages.
     - Added some minor styling to individual endpoint pages so its not painful to look at.
     - Added endpoint name styling so the name of the endpoint in the description is a different color than the rest of the text. the method for this may need to be reworked cause its tedious to do manually.
+
+    - Added more sum function implementations for variety (meme)
+    - Added comment implementation of the new left sidebar nav
+    - Removed unnecessary variable complexity in page.svelte

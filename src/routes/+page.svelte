@@ -10,7 +10,7 @@
 		<div class="flex min-w-0 gap-x-4">
 			<div class="min-w-0 flex-auto">
 				<a class="text-md font-semibold leading-6 text-fuchsia-600 no-underline" href={endpoint}>{endpoint}</a>
-				<p class="mt-1 flex flex-wrap text-xs leading-5 text-gray-300">{description}</p>
+				<p class="mt-1 text-xs leading-5 text-gray-300">{@html description}</p>
 			</div>
 		</div>
 	</li>

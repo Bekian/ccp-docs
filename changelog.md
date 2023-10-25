@@ -32,3 +32,6 @@
     - Added more sum function implementations for variety (meme)
     - Added comment implementation of the new left sidebar nav
     - Removed unnecessary variable complexity in page.svelte
+
+# Oct. 25th '23
+    - Fixed description embed for home page

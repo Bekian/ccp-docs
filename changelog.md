@@ -35,3 +35,5 @@
 
 # Oct. 25th '23
     - Fixed description embed for home page
+
+    - Added additional button to link to the endpoint pages

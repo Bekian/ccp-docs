@@ -11,6 +11,7 @@
 			<div class="min-w-0 flex-auto">
 				<a class="text-md font-semibold leading-6 text-fuchsia-600 no-underline" href={endpoint}>{endpoint}</a>
 				<p class="mt-1 text-xs leading-5 text-gray-300">{@html description}</p>
+				<a class="bg-violet-800 text-neutral-300 rounded-md px-3 py-0 text-md float-right" href="{endpoint}">{endpoint}</a>
 			</div>
 		</div>
 	</li>
